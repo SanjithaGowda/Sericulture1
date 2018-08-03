@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.example.sanjithagowda.sericulture.SP_form_activity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kindly fill in the following details"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop =  "30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight = "30dp"
+                android:ems="10"
+                android:id="@+id/name"
+                android:hint="Name" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reg number"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop =  "30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight = "30dp"
+        android:ems="10"
+        android:id="@+id/regno"
+        android:hint="Registration number" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight = "30dp"
+        android:text="Progress for the quaarter ending"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/month_arrays"
+        android:prompt="@string/month_prompt"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight = "30dp"
+        android:padding="10dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop =  "5dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight = "30dp"
+        android:ems="10"
+        android:id="@+id/year"
+        android:hint="Year" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight = "30dp"
+        android:text="Seed Production"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="30dp"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight = "30dp"
+        android:text="Progress for the quaarter ending"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop =  "25dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight = "30dp"
+        android:ems="10"
+        android:id="@+id/lots"
+        android:hint="
+" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop =  "25dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight = "30dp"
+        android:ems="10"
+        android:id="@+id/cocoons"
+        android:hint="Quantity of cocoons " />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop =  "25dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight = "30dp"
+        android:ems="10"
+        android:id="@+id/cocoonratio"
+        android:hint="Cocoon Ratio" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop =  "25dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight = "30dp"
+        android:ems="10"
+        android:id="@+id/seeds"
+        android:hint="Quantity of seeds " />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop =  "25dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight = "30dp"
+        android:ems="10"
+        android:id="@+id/pairs"
+        android:hint="Average percentage of pairs " />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop =  "25dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight = "30dp"
+        android:ems="10"
+        android:id="@+id/dfls"
+        android:hint="Average percentage of dfls " />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop =  "25dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight = "30dp"
+        android:ems="10"
+        android:id="@+id/pairs"
+        android:hint="Average percentage of pairs " />
+
+</LinearLayout>
+</ScrollView>

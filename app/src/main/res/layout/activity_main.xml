@@ -1,0 +1,78 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanjithagowda.sericulture.MainActivity">
+
+    <TextView
+        android:text = "I'm an"
+    android:layout_width="match_parent"
+    android:layout_height = "wrap_content"
+    android:id = "@+id/textview"
+        android:layout_marginTop="20dp"
+    android:textSize = "35dp"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:src="@drawable/logo"
+        android:layout_weight="1"
+/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seed Producer"
+        android:layout_gravity="center"
+        android:id="@+id/sp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="15dp"
+        android:onClick="SP_activity"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="Silkworm rearer"
+        android:layout_gravity="center"
+        android:id="@+id/Sr"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:onClick="SR_activity"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="Analyst"
+        android:layout_gravity="center"
+        android:id="@+id/analyst"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:onClick="A_activity"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Officer"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+
+        android:layout_gravity="center"
+        android:id="@+id/button"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="2dp"
+         android:onClick="O_activity"/>
+
+
+</LinearLayout>
