@@ -74,5 +74,17 @@
         android:layout_marginTop="2dp"
          android:onClick="O_activity"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="admin login"
+        android:layout_gravity="center"
+        android:id="@+id/admin"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="0dp"
+        android:onClick="SR_activity"
+        />
 
 </LinearLayout>

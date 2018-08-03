@@ -28,10 +28,19 @@
         <activity
             android:name=".officer"
             android:label="Officer" />
-        <activity android:name=".SP_form_activity" android:label="Seed Producer Form" />
-        <activity android:name=".A_form_activity" android:label="Analyst Form"/>
-        <activity android:name=".O_form_activity" android:label="Officer Form" />
-        <activity android:name=".SR_form_activity" android:label="Silk Rearer Form"></activity>
+        <activity
+            android:name=".SP_form_activity"
+            android:label="Seed Producer Form" />
+        <activity
+            android:name=".A_form_activity"
+            android:label="Analyst Form" />
+        <activity
+            android:name=".O_form_activity"
+            android:label="Officer Form" />
+        <activity
+            android:name=".SR_form_activity"
+            android:label="Silk Rearer Form" />
+        <activity android:name=".submit_form"></activity>
     </application>
 
 </manifest>
