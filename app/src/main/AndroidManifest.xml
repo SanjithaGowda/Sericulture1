@@ -45,7 +45,8 @@
         <activity android:name=".A_form_activity1" />
         <activity android:name=".o_choice_activity" />
         <activity android:name=".o_rsp_details" />
-        <activity android:name=".o_rsp_seed_details"></activity>
+        <activity android:name=".o_rsp_seed_details" />
+        <activity android:name=".o_rsp_list_display"></activity>
     </application>
 
 </manifest>

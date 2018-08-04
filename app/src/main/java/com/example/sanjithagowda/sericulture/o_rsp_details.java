@@ -13,7 +13,7 @@ public class o_rsp_details extends AppCompatActivity {
         setContentView(R.layout.activity_o_rsp_details);
     }
 
-    public void oseeddetails(View view) {
+    public void submitdetails(View view) {
         Intent intent = new Intent(this, o_rsp_seed_details.class);
         startActivity(intent);
     }

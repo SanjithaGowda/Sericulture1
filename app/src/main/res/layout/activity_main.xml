@@ -23,31 +23,6 @@
         android:src="@drawable/logo"
         android:layout_weight="1"
 />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Seed Producer"
-        android:layout_gravity="center"
-        android:id="@+id/sp"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp"
-        android:layout_marginBottom="2dp"
-        android:layout_marginTop="15dp"
-        android:onClick="SP_activity"
-        />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp"
-        android:text="Silkworm rearer"
-        android:layout_gravity="center"
-        android:id="@+id/Sr"
-        android:layout_marginBottom="2dp"
-        android:layout_marginTop="2dp"
-        android:onClick="SR_activity"
-        />
 
     <Button
         android:layout_width="wrap_content"
