@@ -14,7 +14,7 @@ public class officer extends AppCompatActivity {
     }
 
     public void openOform(View view) {
-        Intent intent = new Intent(this, O_form_activity.class);
+        Intent intent = new Intent(this, o_choice_activity.class);
         startActivity(intent);
     }
 }

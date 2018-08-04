@@ -84,7 +84,7 @@
         android:id="@+id/admin"
         android:layout_marginTop="2dp"
         android:layout_marginBottom="0dp"
-        android:onClick="SR_activity"
+
         />
 
 </LinearLayout>

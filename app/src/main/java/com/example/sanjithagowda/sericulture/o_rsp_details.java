@@ -5,16 +5,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class analyst extends AppCompatActivity {
+public class o_rsp_details extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_analyst);
+        setContentView(R.layout.activity_o_rsp_details);
     }
 
-    public void openchoiceform(View view) {
-        Intent intent = new Intent(this, A_choice_activity.class);
+    public void oseeddetails(View view) {
+        Intent intent = new Intent(this, o_rsp_seed_details.class);
         startActivity(intent);
     }
 }
